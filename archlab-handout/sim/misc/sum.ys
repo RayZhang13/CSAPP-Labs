@@ -1,0 +1,40 @@
+# Excution begins at address 0
+	.pos 0
+	irmovq stack, %rsp	# Set up stack pointer
+	call main	# Excute main program
+	halt	# Terminate program
+
+# Sample linked list
+.align 8
+ele1:
+	.quad 0x00a
+	.quad ele2
+ele2:
+	.quad 0x0b0
+	.quad ele3
+ele3:
+	.quad 0xc00
+	.quad 0
+
+# main function
+main:
+	irmovq ele1, %rdi
+	call sum_list	# sum_list(ele1)
+	ret
+
+# sum_list function
+sum_list:
+	irmovq $0, %rax	# val = 0
+loop:
+	andq %rdi, %rdi # 判断rdi地址是否有效
+  je out
+  mrmovq 0(%rdi), %rsi # rsi = *(rdi)
+  addq %rsi, %rax # rax += rsi
+  mrmovq 8(%rdi), %rdi #  rdi = *(rdi + 8)
+  jmp loop
+out:
+	ret
+	
+# Stack starts here and grows to lower addresses
+	.pos 0x200
+stack:
