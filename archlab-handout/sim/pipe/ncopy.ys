@@ -85,8 +85,8 @@ test2:
 	iaddq $-3, %rdx			# 先减，判断够不够3个
 	jge L
 	iaddq $2, %rdx			# -1则不剩了，直接Done,0 剩一个, 1剩2个
-  je R0
-  jl Done
+	je R0
+	jl Done
 	mrmovq (%rdi),%r10
 	rmmovq %r10,(%rsi)
 	andq %r10,%r10
