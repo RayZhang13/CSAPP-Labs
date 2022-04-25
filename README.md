@@ -1,7 +1,7 @@
 # CSAPP-Labs
 Lab Assignments on Computer Systems: A Programmer's Perspective
 
-Self-study handout files and gudelines can be found on [Lab Assignments](http://csapp.cs.cmu.edu/3e/labs.html)
+Self-study handout files and guidelines can be found on [Lab Assignments](http://csapp.cs.cmu.edu/3e/labs.html)
 
 More info on [My Blog](https://blog.rayzhang.top/) ...
 
