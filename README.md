@@ -12,4 +12,4 @@ Current progress:
 * [Attack Lab](https://blog.rayzhang.top/2022/02/16/csapp-attacklab/)
 * [Architecture Lab](https://blog.rayzhang.top/2022/03/06/csapp-archlab/)
 * [Cache Lab](https://blog.rayzhang.top/2022/04/03/csapp-cachelab/)
-* Shell Lab (In progress... zzz)
+* [Shell Lab](https://blog.rayzhang.top/2022/04/26/csapp-shlab/)
