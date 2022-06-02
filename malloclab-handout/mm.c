@@ -302,7 +302,7 @@ void *mm_realloc(void *ptr, size_t size) {
 int mm_check(void) {
     void *ptr, *prev_ptr;
     size_t prev_alloc= 1;
-    int count = 0;
+    size_t count = 0;
     ptr = NEXT_LINKNODE_PTR(heap_listp);  //从头节点开始
     while (ptr) {
         count++; //计数+1
