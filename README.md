@@ -13,3 +13,4 @@ Current progress:
 * [Architecture Lab](https://blog.rayzhang.top/2022/03/06/csapp-archlab/)
 * [Cache Lab](https://blog.rayzhang.top/2022/04/03/csapp-cachelab/)
 * [Shell Lab](https://blog.rayzhang.top/2022/04/26/csapp-shlab/)
+* [Malloc Lab](https://blog.rayzhang.top/2022/05/25/csapp-malloclab/)
