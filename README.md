@@ -14,3 +14,4 @@ Current progress:
 * [Cache Lab](https://blog.rayzhang.top/2022/04/03/csapp-cachelab/)
 * [Shell Lab](https://blog.rayzhang.top/2022/04/26/csapp-shlab/)
 * [Malloc Lab](https://blog.rayzhang.top/2022/05/25/csapp-malloclab/)
+* [Proxy Lab](https://blog.rayzhang.top/2022/06/19/csapp-proxylab/)
